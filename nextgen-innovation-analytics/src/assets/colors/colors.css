@@ -4,13 +4,20 @@
   --tertiary-color: #4effa1;
 
   --main-background-color: #050711;
+  --secondary-background-color: #0d101d;
   --primary-text-color: #cccccc;
   --secondary-text-color: #849fb4;
 
   --primary-gradient: linear-gradient(
     90deg,
     rgb(78, 255, 207) 0%,
+    rgb(8, 164, 188) 50%,
     rgb(8, 164, 188) 100%
+  );
+  --primary-gradient-reverse: linear-gradient(
+    90deg,
+    rgb(8, 164, 188) 0%,
+    rgb(78, 255, 207) 100%
   );
   --secondary-gradient: linear-gradient(
     90deg,

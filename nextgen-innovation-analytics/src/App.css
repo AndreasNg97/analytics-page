@@ -1,0 +1,161 @@
+.body{
+    max-width: 100%;
+    overflow-x: hidden;
+    width:100vw;
+    min-height: 100vh;
+    padding-bottom: 4rem;
+    background-color: var(--main-background-color);
+    font-family: Montserrat-Regular;
+}
+
+.page-padding{
+    padding: 0 8rem
+}
+
+.secondary-bg{
+    background-color: var(--secondary-background-color);
+}
+.main-bg{
+    background-color: var(--main-background-color);
+}
+.primary-text{
+    color: var(--primary-text-color)
+}
+.secondary-text{
+    color: var(--secondary-text-color)
+}
+.color1{
+    color: var(--primary-color);
+}
+.color2{
+    color: var(--secondary-color);
+}
+.color3{
+    color: var(--tertiary-color);
+}
+
+.primary-line{
+    border-top: 1px solid var(--primary-color)
+}
+
+.profile-nav-section{
+    height:8vh;
+    color:white;
+    background-image: var(--primary-gradient);
+  /*   min-width: 437.88px;
+    min-height: 75.83px; */
+}
+
+.profile-nav-collapse{
+    height: 8vh;
+    color: var(--secondary-text-color);
+    border-bottom: 1px solid #ff56ee
+}
+
+.center-text-donut{
+    position: relative;
+    top: 6.5rem;
+    left: 4.9rem;
+    display: inline-block;
+}
+
+.donut-container-responsive{
+    height: 42%;
+}
+
+.donut-chart-responsive{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.line-chart-responsive{
+    width:97.8%;
+    height:305px;
+}
+
+.horizontal-nav-fill{
+    width: 40%;
+}
+
+.btn.btn-default,
+.btn.btn-default:focus{
+    color:#cccccc;
+}
+
+.btn.btn-default:active,
+.btn.btn-default.dropdown-toggle:active,
+.btn.btn-default:hover{
+    color:#cccccc;
+}
+
+.iconSelected{
+    background-color: var(--secondary-background-color);
+    cursor: pointer;
+    user-select: none;
+}
+
+.selected{
+    color: rgb(8, 164, 188);
+    cursor: pointer;
+    user-select: none;
+}
+.notSelected{
+    color: var(--secondary-text-color);
+    cursor: pointer;
+    user-select: none;
+}
+
+.i-meeting{
+    border-left: 4px solid #1bfbe4
+}
+
+.c-meeting{
+    border-left: 4px solid #ff56ee
+}
+
+
+@media only screen and (max-width: 1450px){
+    .body > div{
+        padding: 0 0 0 1%;
+    }
+}
+@media only screen and (max-width:  991px){
+    .donut-container-responsive{
+        height: 66.1vh;
+    }
+    .center-text-donut{
+        top: 6.25rem;
+        left: 4.6rem;
+    }
+}
+@media only screen and (max-width:  767px){
+    .donut-container-responsive{
+        height:100%;
+    }
+    .center-text-donut{
+        top: 5.5rem;
+        left: 4.6rem;
+    }
+    .line-chart-responsive{
+        width:100%;
+    }
+    .horizontal-nav-fill{
+        display: none;
+    }
+    .donut-chart-responsive{
+        position: relative;
+        width: 200px;
+        height: 200px;
+        margin: 2%;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .donut-container-responsive{
+        height: 100%;
+    }
+    .line-chart-responsive{
+        height: 220px;
+    }
+}
