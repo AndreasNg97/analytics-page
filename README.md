@@ -1,5 +1,5 @@
 # Nextgen Innovation Analytics Page
-This is my implementation of the challenge :)
+This is my implementation of the challenge diggit/sci-code provided.
 
 ## Installation and Setup
 You will need node and npm installed globally on your machine.
