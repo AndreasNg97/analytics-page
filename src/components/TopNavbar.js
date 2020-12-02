@@ -48,9 +48,9 @@ const TopNavbar = () => {
                         </div>
                     </div>
                     <Nav className='ml-5'>
-                        <Nav.Link href='accounts'><p className='mx-5 my-0 secondary-text'><b>Accounts</b></p></Nav.Link>
-                        <Nav.Link href='charts'><p className='mx-5 my-0 secondary-text'><b>Charts</b></p></Nav.Link>
-                        <Nav.Link href='help'><p className='mx-5 my-0 secondary-text'><b>Help</b></p></Nav.Link>
+                        <Nav.Link><p className='mx-5 my-0 secondary-text'><b>Accounts</b></p></Nav.Link>
+                        <Nav.Link><p className='mx-5 my-0 secondary-text'><b>Charts</b></p></Nav.Link>
+                        <Nav.Link><p className='mx-5 my-0 secondary-text'><b>Help</b></p></Nav.Link>
                     </Nav>
                     <div className='mx-4'></div>
 
